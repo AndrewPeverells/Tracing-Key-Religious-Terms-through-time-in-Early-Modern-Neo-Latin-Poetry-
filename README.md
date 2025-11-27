@@ -5,13 +5,13 @@ The goal of this study is to examine how the semantics and contextual associatio
 
 The repository includes:
 
-a curated and cleaned corpus derived from the CAMENA – Corpus Automatum Multiplex Electorum Neolatinitatis Auctorum (University of Mannheim), redistributed under the terms of the CC BY-SA 4.0 license;
+- a curated and cleaned corpus derived from the CAMENA – Corpus Automatum Multiplex Electorum Neolatinitatis Auctorum (University of Mannheim), redistributed under the terms of the CC BY-SA 4.0 license;
 
-enriched metadata for authors, printers, places, and publication dates;
+- enriched metadata for authors, printers, places, and publication dates;
 
-scripts for text extraction, preprocessing, metadata alignment, and collocate statistics for implementing semantic drift analysis and diachronic collocate evolution;
+- scripts for text extraction, preprocessing, metadata alignment, and collocate statistics for implementing semantic drift analysis and diachronic collocate evolution;
 
-visualisations of term trajectories across time periods and confessional contexts.
+- visualisations of term trajectories across time periods and confessional contexts.
 
 
 
