@@ -24,34 +24,6 @@ from sklearn.decomposition import PCA
 import umap
 
 # =============================================================================
-# GLOBAL CONFIGURATION
-# =============================================================================
-
-BASE = Path("/mnt/c/exp")
-
-METADATA_CSV = BASE / "metadata.csv"
-LEMM_DIR     = BASE / "lemmatised"
-
-TARGETS      = ["gratia", "fides"]
-TARGETS_SET  = set(t.lower() for t in TARGETS)
-
-WINDOW_SIZE      = 7
-EXPERIMENT_LABEL = "gratia_fides"
-
-KWIC_CSV        = BASE / f"windows_w{WINDOW_SIZE}_{EXPERIMENT_LABEL}.csv"
-COLLOCATES_CSV  = BASE / f"collocates_w{WINDOW_SIZE}_{EXPERIMENT_LABEL}.csv"
-
-STOPWORDS_FILE  = BASE / "stopwords_lat_lemmas.txt"
-FASTTEXT_MODEL  = BASE / "cc.la.300.bin"
-
-KWIC_ENCODING       = "utf-8"
-METADATA_ENCODING   = "utf-8-sig"
-COLLOCATES_ENCODING = "utf-8-sig"
-
-TOKEN_SPLIT_RE = re.compile(r"\s+")
-
-
-# =============================================================================
 # 1. KWIC EXTRACTION (WINDOWS AROUND TARGET LEMMAS)
 # =============================================================================
 
@@ -991,4 +963,5 @@ def plot_many_collocates_religion_drift(
     plt.tight_layout(rect=[0.05, 0.08, 0.95, 0.88])
     fig.suptitle(f"{title_prefix}: semantic drift by religion",
                  fontsize=fontsize+4, y=0.98)
+
     plt.show()
