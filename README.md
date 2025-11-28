@@ -28,7 +28,7 @@ License:
 All texts in /data/ are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
 https://creativecommons.org/licenses/by-sa/4.0/
 
-Modifications by Andrea Peverelli and Barbara McGillivray:
+Modifications by Andrea Peverelli:
 
 cleaning of XML
 
@@ -52,5 +52,5 @@ If you use this repository for research, please cite both:
 
 
 ## Authors
-- Dr. Andrea Peverelli
-- Dr. Barbara McGillivray
+- Dr. Andrea Peverelli (study design, implementation and code)
+- Dr. Barbara McGillivray (study design)
