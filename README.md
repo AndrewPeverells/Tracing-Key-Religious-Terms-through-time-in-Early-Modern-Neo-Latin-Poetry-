@@ -50,7 +50,8 @@ If you use this repository for research, please cite both:
 
 
 
-
+<!--
 ## Authors
 - Dr. Andrea Peverelli (study design, implementation and code)
 - Dr. Barbara McGillivray (study design)
+-->
